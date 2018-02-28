@@ -1,0 +1,1 @@
+web: gunicorn Snake345:application --worker-class gevent
