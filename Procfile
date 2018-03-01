@@ -1,1 +1,1 @@
-web: gunicorn Snake345:application --worker-class gevent
+web: gunicorn -w 4 Snake345:app
